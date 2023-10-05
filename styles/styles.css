@@ -40,6 +40,7 @@ button {
   font: inherit;
   background-color: inherit;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 
 .activities__container {
@@ -90,6 +91,31 @@ button {
   background-size: cover;
   border-radius: 35px;
   overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.activities__pet-card_2 {
+  position: relative;
+  background-image: url(/images/02.jpg);
+  background-position: center center;
+  height: 220px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 35px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.activities__pet-card_3 {
+  position: relative;
+  background-image: url(/images/03.jpg);
+  background-position: center center;
+  height: 220px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 35px;
+  overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .activities__card-text {
@@ -123,6 +149,18 @@ button {
 
 .activities__pet-card:hover .activities__card-overlay,
 .activities__pet-card:hover .activities__card-text {
+  visibility: visible;
+  cursor: pointer;
+}
+
+.activities__pet-card_2:hover .activities__card-overlay,
+.activities__pet-card_2:hover .activities__card-text {
+  visibility: visible;
+  cursor: pointer;
+}
+
+.activities__pet-card_3:hover .activities__card-overlay,
+.activities__pet-card_3:hover .activities__card-text {
   visibility: visible;
   cursor: pointer;
 }
