@@ -64,12 +64,65 @@ button {
 }
 
 .button {
-  color: var(--third-color);
   font-size: 0.8rem;
   font-weight: 400;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
   padding: 0.8rem 0.9rem;
   border-radius: 0 25px 25px 25px;
+}
+
+.activities--solid-button {
+  color: var(--third-color);
   background-color: var(--main-color);
+}
+
+.activities__image-gallery {
+  margin-top: 20px;
+}
+
+.activities__pet-card {
+  position: relative;
+  background-image: url(/images/01.jpg);
+  background-position: center center;
+  height: 220px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 35px;
+  overflow: hidden;
+}
+
+.activities__card-text {
+  position: absolute;
+  bottom: 0px;
+  padding: 10px;
+  left: 0px;
+  width: 100%;
+  visibility: hidden;
+}
+
+.activities__section-card {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: var(--third-color);
+}
+
+.activities__title-card {
+  color: var(--third-color);
+  font-weight: 800;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.activities__card-overlay {
+  background-color: black;
+  height: 100%;
+  opacity: 0.3;
+  visibility: hidden;
+}
+
+.activities__pet-card:hover .activities__card-overlay,
+.activities__pet-card:hover .activities__card-text {
+  visibility: visible;
+  cursor: pointer;
 }
