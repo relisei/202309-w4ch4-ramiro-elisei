@@ -1,6 +1,7 @@
 :root {
   --main-color: #ee6436;
   --secundary-color: #181818;
+  --third-color: #fef9fa;
   --font-family: "Nunito", sans-serif;
 }
 
@@ -20,13 +21,13 @@ body {
 
 h1,
 h2 {
-  margin-top: 0;
+  margin: 0;
 }
 
 ul {
   list-style: none;
   margin: 0;
-  padding-left: 0;
+  padding: 0;
 }
 
 a {
@@ -39,4 +40,36 @@ button {
   font: inherit;
   background-color: inherit;
   cursor: pointer;
+}
+
+.activities__container {
+  text-align: center;
+  padding: 1.25rem 1rem;
+}
+
+.activities__section {
+  font-weight: 800;
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
+.activities__title {
+  font-weight: 800;
+  font-size: 2rem;
+  color: var(--secundary-color);
+  padding-top: 0.5rem;
+  padding-bottom: 1.563rem;
+}
+
+.button {
+  color: var(--third-color);
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  padding: 0.8rem 0.9rem;
+  border-radius: 0 25px 25px 25px;
+  background-color: var(--main-color);
 }
